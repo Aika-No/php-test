@@ -22,3 +22,6 @@
     for ($i=1; $i<=100; $i++){
         echo fizzBuzz($i). '';
     }
+    echo '<br><br>';
+
+    
