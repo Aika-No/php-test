@@ -49,7 +49,7 @@
     echo $address[0];
     echo '<br>';
     echo $address[3];
-    
+
     echo '<br><br>';
 
     $adress2= ['country'=>'Japan', 'state'=>'kinki', 'prefecture'=>'Osaka', 'city'=>'Yao', 'zip'=>'5810018'];
@@ -57,3 +57,15 @@
     echo '<br>';
     echo $adress2['country'].'<br>';
     echo $adress2['zip'].'<br>';
+
+    echo '<br><br>';
+
+    // student info
+    // uni-name, name, country, email, student-number
+    $info1 = ['uni'=>'Carleton', 'name'=>'Aika', 'country'=>'Japan', 'email'=>'aika@gmail.com', 'number'=>'020'];
+    $info2 = ['uni'=>'Toronto', 'name'=>'Yu', 'country'=>'Japan', 'email'=>'Yu@gmail.com', 'number'=>'021'];
+    $info3 = ['uni'=>'Dal', 'name'=>'Paige', 'country'=>'Canada', 'email'=>'paige@gmail.com', 'number'=>'018'];
+    $info4 = ['uni'=>'Mcgill', 'name'=>'Heather', 'country'=>'Canada', 'email'=>'heather@gmail.com', 'number'=>'019'];
+
+    $all_info = [$info1, $info2, $info3, $info4];
+    var_dump($all_info);
